@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 87px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #757575;
+    z-index: 5;
+}
+
+.name{
+    display: grid;
+    grid-template-rows: 1px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.name h1{
+    font-size: 1.5rem;
+}
+
+.name h3{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+.navbar a{
+    padding: 15px;
+    font-weight: 450;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.me img{
+    position: relative;
+    top: 200px;
+    left: 290px;
+    right: 0;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 18px black;
+    z-index: -1;
+}
+
+.aboutme{
+    position: relative;
+    top: 250px;
+    left: 30px;
+    right: 0;
+    width: 70%;
+    display: grid;
+    grid-template-rows: 50px 60px;
+    z-index: -1;
+}
+
+.aspire{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.description{
+    width: 500px;
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.socials{
+    position: relative;
+    top: 190px;
+    left: 790px;
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    margin-top: -150px;
+    justify-content: space-between;
+}
+
+.socials a{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.socials a:hover{
+    color: rgba(0, 0, 0, 0.600);
+}
+
+.download-btn{
+    position: relative;
+    top: 154px;
+    left: 970px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 520;
+    padding: .5rem .5rem;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.download-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.about{
+    height: 850px;
+    width: 100%;
+    margin-top: 600px;
+    text-align: center;
+}
+
+.about h1{
+    padding-top: 150px;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.about h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.skills{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.skills h1{
+    padding-top: 150px;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.skills h2{
+    position: relative;
+    top: 10px;
+    left: 45px;
+    padding: 26px;
+    font-weight: 500;
+    z-index: -1;
+    
+}
+
+.skills h3{
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.skills img{
+    position: relative;
+    top: -645px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    padding: 23.5px;
+    z-index: -1;
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects h1{
+    padding-top: 150px;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.projects h3{
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+.experience{
+    margin-top: 600px;
+    text-align: center;
+}
+
+.experience h1{
+    padding-top: 150px;
+    font-size: 3rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.experience h3{
+    margin-top: 200px;
+    font-weight: 500;
+}
+
+.contacts{
+    margin-top: 700px;
+    text-align: center;
+}
+
+.contacts h1{
+    padding-top: 150px;  
+    font-size: 3rem;
+    text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.contacts h3{
+    font-weight: 500;
+}
+
+.forms{
+    height: 360px;
+    width: 400px;
+    background-color: #ccc;
+    justify-self: center;
+    border-radius: 25px;
+    font-size: .880rem;
+}
+
+input[type=text]{
+    margin-top: 25px;
+    margin-left: -30px;
+    height: 30px;
+    width: 273px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border:2px solid white;
+    border-radius: 10px;
+}
+
+textarea{
+    margin-top: 5px;
+    border:2px solid white;
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border:2px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    color: white;
+    background-color: black;
+}
+
+input[type=radio]{
+    float: left;
+    margin-left: 30px;
+}
+
+.namee{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.malee{
+    float: left;
+    font-weight: 500;
+}
+
+.femalee{
+    float: left;
+    font-weight: 500;
+}
+
+.emaill{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.genderr{
+    float: left;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.commentt{
+    float: left;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.address{
+    margin-top: 40px;
+    margin-right: 90px;
+    justify-self: end;
+}
+
+.num{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.mail{
+    margin-top: 40px;
+    margin-left: 230px;
+}
+
+.houseicon{
+    position: relative;
+    top: -92px;
+    left: 307px;
+    color: black;
+}
+
+.cavite{
+    margin-top: 0px;
+    margin-right: 60px;
+    justify-self: end; 
+    font-weight: 500;
+}
+
+.telephone{
+    position: relative;
+    top: -140px;
+    right: 430px;
+    justify-self: flex-end;
+    color: black;
+}
+
+.cpnum{    
+    margin-top: 0px;
+    margin-left: 33px;
+    font-weight: 500;
+}
+
+.mailicon{
+    position: relative;
+    top: -115px;
+    right: 790px;
+    justify-self: flex-end;
+    color: black;
+}
+
+.gmail{
+    margin-top: 0px;
+    margin-left: 100px;
+    font-weight: 500;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h3{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.socmed{
+    display: flex;
+    flex-direction: row;
+    width:10%;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+.socmed a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.socmed a:hover{
+    color: rgba(0, 0, 0, 0.600);
+}
+
